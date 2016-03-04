@@ -1,0 +1,132 @@
+*
+{
+  margin: 0px;
+  top: 0px;
+}
+
+body
+{
+  font-family: Arial;
+}
+
+h1
+{
+  margin-top: 1.5em;
+  text-shadow: 5px 5px 5px #aaa;
+  margin-bottom: 1em;
+}
+
+.botones
+{
+    margin-top: 2em;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 35px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+
+.fraccionarios
+{
+  border: 2px solid #bdc3c7;
+  color: #000000;
+  padding: 8px 12px;
+  font-size: 2.1em;
+  width: 3em;
+  font-weight: bold;
+  border-color: transparent;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#denominador_1,#denominador_2
+{
+  margin-right: 1.9em;
+  margin-left: 1.9em;
+}
+
+.linea
+{
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ffffff #ffffff #000000 #ffffff;
+  
+
+}
+
+.cajas {
+
+  border: 2px solid #bdc3c7;
+  color: #34495e;
+  padding: 8px 12px;
+  height: 42px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-color: transparent;
+  border-radius: 6px;
+  }
+
+select {
+  background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px'><polyline points='46.139,15.518 25.166,36.49 4.193,15.519'/></svg>");
+  background-color:#3498DB;
+  background-repeat:no-repeat;
+  background-position: right 10px top 15px;
+  background-size: 16px 16px;
+  color:white;
+  padding:12px;
+  width:9em;
+  font-family:arial,tahoma;
+  font-size:16px;
+  font-weight:bold;
+  color:#fff;
+  text-align:center;
+  text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -webkit-appearance: none;
+  border:0;
+  outline:0;
+  -webkit-transition:0.3s ease all;
+     -moz-transition:0.3s ease all;
+      -ms-transition:0.3s ease all;
+       -o-transition:0.3s ease all;
+          transition:0.3s ease all;
+
+  margin-left: 1.5em;
+  cursor: pointer;
+}
+
+#operaciones
+{
+  background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px'><polyline points='46.139,15.518 25.166,36.49 4.193,15.519'/></svg>");
+  background-color:#3498DB;
+  background-repeat:no-repeat;
+  background-position: right 10px top 15px;
+  background-size: 16px 16px;
+  color:white;
+  padding:12px;
+  width:2em;
+  height: 2em;
+  font-family:arial,tahoma;
+  font-size:1.5em;
+  font-weight:bold;
+  color:#fff;
+  text-align:center;
+  text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -webkit-appearance: none;
+  
+-webkit-transition:0.3s ease all;
+ -moz-transition:0.3s ease all;
+  -ms-transition:0.3s ease all;
+   -o-transition:0.3s ease all;
+      transition:0.3s ease all;
+margin-right: 1.5em;
+cursor: pointer;
+}
